@@ -8,7 +8,6 @@ public class CaixaEletronico {
             saldo = saldo - valorSolicitado;
 
         System.out.println(saldo);
-        System.out.println(saldo);
 
     }
 }
