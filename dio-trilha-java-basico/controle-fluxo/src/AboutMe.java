@@ -29,6 +29,7 @@ public class AboutMe {
         catch (InputMismatchException e){
             System.out.println("A idade e altura devem ser numéricos");
 
+
         }
     }
 }
