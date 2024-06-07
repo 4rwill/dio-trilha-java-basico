@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 // Modo condicional switch/case
 public class PlanoOperadora {
     public static void main(String[] args) {
-        String plano = "T"; // M / T / B
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("T, M ou B:");
+        System.out.println("Digite:");
+        String plano = scanner.next();
 
         switch (plano) {
             case "T": {

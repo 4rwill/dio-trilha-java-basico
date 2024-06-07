@@ -13,7 +13,7 @@ public class ExemploDoWhile {
             System.out.println("Alô !!!");
         }
         private static boolean tocando() {
-            boolean atendeu = new Random().nextInt(3)==1;
+            boolean atendeu = new Random().nextInt(1)==3;
             System.out.println("Atendeu? " + atendeu);
             //negando o ato de continuar tocando
             return ! atendeu;
